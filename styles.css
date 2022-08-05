@@ -1,0 +1,52 @@
+div{
+    display: flex;
+}
+
+.background{
+    background-image: url(inon-homepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100 mer;
+    height: 100 mer; 
+}
+
+.start_here{
+    background-color: black;
+    height: 95.68vh;
+    padding: 2%;
+    flex-direction: column;
+    opacity: 78%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+pre{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+.ref{
+    width: 100vw;
+    padding: 0vw 10vw;
+    position: absolute;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page{
+    background-color: yellow;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
