@@ -1,52 +1,473 @@
-div{
-    display: flex;
+html{
+    scroll-behavior: smooth;
+
 }
 
-.background{
-    background-image: url(inon-homepage.jpg);
+#Home{
+    display: flex;
+    background-image: url(Ginsburg_Mena_26.7.22.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100 mer;
-    height: 100 mer; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
 }
 
 .start_here{
-    background-color: black;
-    height: 95.68vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 100vh;
     padding: 2%;
     flex-direction: column;
-    opacity: 78%;
+    text-align: center;
 }
 
 h1{
     color: white;
+    font-family: 'Tangerine', serif;
+    margin-top: 20vh ;
+    font-size: 300%;
+    text-shadow: 4px 4px 4px #aaa;
     text-align: center;
 }
 
-pre{
+#des{
+    display: flex;
     color: white;
-    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh ;
+    width: 25vw;
 }
 
-h2{
+#call{
+    display: flex;
     color: white;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    margin-top: 5vh ;
+    margin-bottom: 5vh ;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh ;
+    width: 25vw;
 }
 
 .ref{
-    width: 100vw;
-    padding: 0vw 10vw;
+    display: flex;
+    width: 50vw;
+    font-size: 100%;
+    padding-left: 23.8vw ;
+    padding-right: 23.8vw ;
+    margin-top: 1vh;
     position: absolute;
-    display: flex;
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 .page{
-    background-color: yellow;
-
-    flex-direction: row;
-    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.699);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    border-radius: 0.8vh;
+    text-decoration:none;  
+    padding-top: 1vh ;
+    width: 5vw;
+    height: 5vh;
 }
 
+.page:hover{
+    color: rgb(107, 107, 107);
+}
+
+.page:active{
+    color: rgb(58, 58, 58);
+
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+ 
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 201, 64);
+    border-color: rgba(255, 255, 255, 0.767);
+    margin-top: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5vh;
+    width: 16vw;
+    height: 7vh;
+}
+
+#Menu{
+    display: flex;
+    background-image: url(https://media.istockphoto.com/vectors/grey-wheel-geometric-technology-background-with-gear-shape-vector-vector-id1162545693?k=20&m=1162545693&s=612x612&w=0&h=SuNDfDhqvyYCblUkX6CTIl38bu9zec_ynJEqOsCNUaM=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.menu_title{
+    height: fit-content;
+}
+
+.Appetizers{
+    color: black;
+    text-shadow: 4px 4px 4px rgb(39, 34, 34);
+    width: 25em;
+    margin-bottom: 6vh;
+    justify-content: center;
+    display: flex;
+}
+
+.Starters{
+    display: flex;
+    width: 90vw;
+    height: 250px;
+    justify-content: space-evenly;
+}
+
+
+
+#meal_1{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 8.jpg);
+    background-size:contain;
+    background-repeat: no-repeat ; 
+    box-shadow: 4px 4px 4px rgb(39, 34, 34);
+    width: 100%;
+    height: 100%;  
+}
+
+#pic_1{
+    margin-left: 52.5px;
+    margin-right: 52.5px;
+} 
+
+#meal_2{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 27.jpg);
+    background-size:contain;
+    background-repeat: no-repeat ; 
+    box-shadow: 4px 4px 4px rgb(39, 34, 34);
+    width: 100%;
+    height: 100%;
+    
+}
+
+#pic_2{
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+#meal_3{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 31.jpg);
+    background-size:contain;
+    background-repeat: no-repeat ;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34);
+    width: 100%;
+    height: 100%;
+}
+
+#pic_3{
+    margin-left: 46px;
+    margin-right: 46px;
+}
+
+.examples{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+
+#meal_4{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 37.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    box-shadow: 4px 4px 4px rgb(39, 34, 34);
+    width: 100%;
+    height: 100%;
+}
+
+#pic_4{
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+#meal_5{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 140.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    width: 100.5%;
+    height: 100%;
+}
+
+#pic_5{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#meal_6{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 59.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    box-shadow: 4px 4px 4px rgb(39, 34, 34);
+    width: 100%;
+    height: 100%;
+}
+
+#pic_6{
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+#meal_7{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 57.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    width: 100%;
+    height: 100%;
+}
+
+#pic_7{
+    margin-left: 35.5px;
+    margin-right: 35.5px;
+}
+
+#meal_8{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 124.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    width: 100%;
+    height: 100%;
+}
+
+#pic_8{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+#meal_9{
+    background-image: url(./menu/Ginsburg_Mena_26.7.22\ 119.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    width: 100%;
+    height: 100%;
+}
+
+#pic_9{
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+#meal_10{
+    background-image: url(./menu/desserts/Ginsburg_Mena_26.7.22\ 165.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    margin-left: 15px;
+    width: 83%;
+    height: 100%;
+}
+
+#meal_11{
+    background-image: url(./menu/desserts/Ginsburg_Mena_26.7.22\ 163.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    margin-left: 8px;
+    width: 92%;
+    height: 100%;
+}
+
+#meal_12{
+    background-image: url(./menu/desserts/Ginsburg_Mena_26.7.22\ 167.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+    margin-left: 38px;
+    width: 63%;
+    height: 100%;
+}
+
+#FAQ{
+    display: flex;
+    background-image: url(./Ginsburg_Mena_26.7.22\ 196.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#image_size{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.faq_block{
+    background-color: rgba(0,0,0,0.6);
+}
+
+#chef{
+    width: 30%;
+    height: 60%;
+}
+
+.faq_titles{
+    margin-top: 10vh;
+}
+
+#inon{
+    background-image: url(./Ginsburg_Mena_26.7.22\ 201.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7%;
+    margin-left: 30%;
+    width: 166px;
+    height: 110px;
+}
+
+#Mena{
+    background-image: url(./Ginsburg_Mena_26.7.22\ 220.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7%;
+    margin-left: 30%;
+    width: 164px;
+    height: 103px;
+}
+
+.ans{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#restuaraunt{
+    width: 30%;
+    height: 60%;
+    align-self: flex-end;
+}
+
+#Contact{
+    display: flex;
+}
+
+#Background{
+    width: 100%;
+    opacity: 0.6;
+}
+
+#contact_background{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 97.5vw;
+    height: 142vh;
+}
+
+#contact_us{
+    color: black;
+    font-size: 7em;
+    width: 100%;
+}
+
+.contact_section{
+    display: flex;
+    justify-content: center;
+}
+
+.input_section{
+    background-color:rgba(94, 93, 97, 0);
+    border-color: rgb(0, 0, 0);
+    width: 12.9vw;
+    height: 8vh;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+    padding: 0.5vw;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#input_name{
+    margin-right: 0.5vw;
+}
+
+select#reason{
+    margin-top: 1vh;
+    width: 26.3vw;
+    height: 8vh;
+    border-width: 2px;
+
+}
+
+select{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+textarea::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+textarea#reason{
+    margin-top: 1vh;
+    width: 26.3vw;
+    height: 25vh;
+    border-width: 2px;
+}
+
+.agreement{
+    margin-top: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+
+}
+
+#buttom{
+    border-color: none;
+}
+
+.submit{
+    background-color:#fae3a4;
+    border-color: rgba(160, 160, 157, 0.61); 
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;    
+    margin-top: 3vh;
+    width: 15vw;
+    height: 7vh;
+}
+.submit:active{
+    background-color:#fcdf91;
+}
