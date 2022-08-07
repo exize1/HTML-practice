@@ -157,7 +157,7 @@ html{
 padding-left: 7.5vh;
 padding-right: 7.5vh;
  */
-.Appetizers{
+.menu-title{
     color: black;
     font-family: 'Tangerine', serif;
     font-size: 7vh;
@@ -170,16 +170,17 @@ padding-right: 7.5vh;
     justify-content: center;
 }
 
-.Starters{
+.order-photos{
     display: flex;
     width: 90vw;
     height: 250px;
     justify-content: space-evenly;
 }
 
-.examples{
+.courses-names{
     display: flex;
     flex-direction: column;
+    text-align: center;
     font-family: 'Playfair Display', serif;
 }
 
@@ -403,8 +404,8 @@ padding-right: 7.5vh;
     border-radius: 7%;
     margin-left: 4.5vw;
     margin-right: 4.5vw;
-    width: 164px;
-    height: 103px;
+    width: 166px;
+    height: 110px;
 }
 
 .ans{
@@ -496,7 +497,7 @@ textarea::placeholder{
     font-weight: bold;
 }
 
-textarea#reason{
+textarea#message{
     margin-top: 1vh;
     width: 26.3vw;
     height: 25vh;
@@ -529,12 +530,237 @@ textarea#reason{
 }
 
 @media only screen and (max-width: 768px) {
+
+
+
+    body{
+        margin-left: 0%;
+        margin-top: 0%;
+        width: 101.5vw;
+        height: 107vh;
+    }
+
     #Home{
         background-size: cover;
-        width: 50vh;
+        width: 100%;
+        height: 100%;
+    }
+
+    .start_here{
+        height: 100%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    #welcome_title{
+        margin-top: 20vh;
+        margin-bottom: 1vh;
+        padding: 0vh 1vw;
+        width: 40vw;
+    }
+
+    #des{
+        width: 40vw;
+        padding: 0vh 1vw;
+    }
+
+    #call{
+        width: 40vw;
+        padding: 0vh 1vw;
+    }
+
+    .btn{
+        width: 20vh;
     }
 
     .ref{
-        width:50vh;
+        width:100%;
+        padding: 0%;
+    }
+
+    .page{
+        height: 2vh;    
+    }
+
+    .menu-title{
+        width: 100%;
+    }
+
+    .order-photos{
+        width: 100%;
+        height: 210px;
+    }
+    
+
+    #meal_1{
+        width: 100%;
+        height: 100%;  
+    }
+    
+    #pic_1{
+        margin-left: 22.5px;
+        margin-right: 22.5px;
+    } 
+    
+    #meal_2{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    #pic_2{
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+    
+    #meal_3{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_3{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #meal_4{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_4{
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    
+    #meal_5{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_5{
+        margin: 1.2vh 0 0 0;
+        width: 20vw;
+    }
+    
+    #meal_6{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_6{
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    
+    #meal_7{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_7{
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+    }
+    
+    #meal_8{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_8{
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    
+    #meal_9{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic_9{
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    
+    #meal_10{
+        margin-left: 15px;
+        width: 83%;
+        height: 100%;
+    }
+
+    #pic_10{
+        width: 18.8vw;
+    }
+    
+    #meal_11{
+        margin-left: 8px;
+        width: 92%;
+        height: 100%;
+    }
+
+    #pic_11{
+        width: 18.7vw;
+    }
+    
+    #meal_12{
+        background-image: url(./menu/desserts/Ginsburg_Mena_26.7.22\ 167.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 4px 4px 4px rgb(39, 34, 34); 
+        margin-left: 38px;
+        width: 63%;
+        height: 100%;
+    }
+
+    #pic_12{
+        width: 18.8vw;
+    }
+
+    .faq_block{
+        width: 51vw;
+    }
+
+    .faq_titles{
+        width: 100%;
+    }
+
+    .ans{
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+
+    #contact_background{
+        height: 50%;
+        width: 101%;
+
+    }
+
+    #Background{
+        background-size: cover !important;
+    }
+
+    #contact_us{
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    .input_section{
+        width: 45vw;
+        height: 6vh;
+    }
+
+    #reason{
+        width: 90vw !important;
+        height: 6vh;
+    }
+
+    #message{
+        width: 90vw !important;
+        height: 10vh !important;
+    }
+
+    .submit{
+        height: 5vh;
     }
 }
