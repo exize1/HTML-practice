@@ -4,13 +4,35 @@ html{
 }
 
 #Home{
+    position: relative;
     display: flex;
-    background-image: url(Ginsburg_Mena_26.7.22.jpg);
+    background-image: url(./Photos/Ginsburg_Mena_26.7.22\ 86.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
     height: 100%;
+    z-index: 1;
+}
+
+#a{
+    position: fixed;
+    border-radius: 2vh;
+    text-align: center;
+    padding-top: 2.5vh;
+    bottom: 1vh;  
+    right: 1vw;
+    background-color: rgba(150, 150, 150, 0.699);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration:none;
+    width: 4vw;
+    height: 5.5vh;
+}
+
+#a:hover{
+    background-color: rgb(186, 186, 186);
 }
 
 .start_here{
@@ -22,30 +44,35 @@ html{
     text-align: center;
 }
 
-h1{
+#welcome_title{
     color: white;
     font-family: 'Tangerine', serif;
     margin-top: 20vh ;
-    font-size: 300%;
+    font-size: 7vh;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh;
     text-shadow: 4px 4px 4px #aaa;
     text-align: center;
+    width: 25vw;
 }
 
 #des{
     display: flex;
+    justify-content: center;
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 3vh;
     padding-left: 7.5vh;
-    padding-right: 7.5vh ;
+    padding-right: 7.5vh;
     width: 25vw;
 }
 
 #call{
     display: flex;
+    justify-content: center;
     color: white;
     font-family: 'Lora', serif;
-    font-size: 28px;
+    font-size: 4vh;
     margin-top: 5vh ;
     margin-bottom: 5vh ;
     padding-left: 7.5vh;
@@ -56,7 +83,7 @@ h1{
 .ref{
     display: flex;
     width: 50vw;
-    font-size: 100%;
+    font-size: 1vw;
     padding-left: 23.8vw ;
     padding-right: 23.8vw ;
     margin-top: 1vh;
@@ -72,8 +99,8 @@ h1{
     font-weight: bold;
     color: black;
     border-radius: 0.8vh;
-    text-decoration:none;  
-    padding-top: 1vh ;
+    text-decoration:none;
+    padding-top: 1vh;  
     width: 5vw;
     height: 5vh;
 }
@@ -107,6 +134,7 @@ h1{
     display: flex;
     background-image: url(https://media.istockphoto.com/vectors/grey-wheel-geometric-technology-background-with-gear-shape-vector-vector-id1162545693?k=20&m=1162545693&s=612x612&w=0&h=SuNDfDhqvyYCblUkX6CTIl38bu9zec_ynJEqOsCNUaM=);
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -125,14 +153,21 @@ h1{
 .menu_title{
     height: fit-content;
 }
-
+/* margin-top: 20vh ;
+padding-left: 7.5vh;
+padding-right: 7.5vh;
+ */
 .Appetizers{
     color: black;
+    font-family: 'Tangerine', serif;
+    font-size: 7vh;
+    margin-top: 10vh ;
+    width: 25vw;
+    text-align: center;
     text-shadow: 4px 4px 4px rgb(39, 34, 34);
-    width: 25em;
     margin-bottom: 6vh;
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
 .Starters{
@@ -142,7 +177,11 @@ h1{
     justify-content: space-evenly;
 }
 
-
+.examples{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
 
 #meal_1{
     background-image: url(./menu/Ginsburg_Mena_26.7.22\ 8.jpg);
@@ -185,12 +224,6 @@ h1{
 #pic_3{
     margin-left: 46px;
     margin-right: 46px;
-}
-
-.examples{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Playfair Display', serif;
 }
 
 .description{
@@ -314,7 +347,7 @@ h1{
 
 #FAQ{
     display: flex;
-    background-image: url(./Ginsburg_Mena_26.7.22\ 196.jpg);
+    background-image: url(./Photos/Ginsburg_Mena_26.7.22\ 196.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -329,33 +362,47 @@ h1{
 
 .faq_block{
     background-color: rgba(0,0,0,0.6);
+    width: 25%;
+    height: 65vh;
 }
 
 #chef{
-    width: 30%;
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .faq_titles{
-    margin-top: 10vh;
+    color: white;
+    font-family: 'Tangerine', serif;
+    font-size: 7vh;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    width: 25vw;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
 }
 
 #inon{
-    background-image: url(./Ginsburg_Mena_26.7.22\ 201.jpg);
-    background-size: contain;
+    background-image: url(./Photos/Ginsburg_Mena_26.7.22\ 201.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 7%;
-    margin-left: 30%;
+    /* margin-top: 4.5vw; */
+    /* margin-buttom: 4.5vw; */
     width: 166px;
     height: 110px;
 }
 
 #Mena{
-    background-image: url(./Ginsburg_Mena_26.7.22\ 220.jpg);
+    display: flex;
+    background-image: url(./Photos/Ginsburg_Mena_26.7.22\ 220.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 7%;
-    margin-left: 30%;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
     width: 164px;
     height: 103px;
 }
@@ -363,13 +410,17 @@ h1{
 .ans{
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 15px;
+    font-size: 2vh;
     text-align: center;
+    width: 80%;
+    margin-bottom: 1.8vw;
+    margin-top: 1.8vw;
 }
 
 #restuaraunt{
-    width: 30%;
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     align-self: flex-end;
 }
 
@@ -392,6 +443,11 @@ h1{
 
 #contact_us{
     color: black;
+    font-family: 'Tangerine', serif;
+    margin-top: 25vh ;
+    width: 25vw;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgb(39, 34, 34);
     font-size: 7em;
     width: 100%;
 }
@@ -470,4 +526,15 @@ textarea#reason{
 }
 .submit:active{
     background-color:#fcdf91;
+}
+
+@media only screen and (max-width: 768px) {
+    #Home{
+        background-size: cover;
+        width: 50vh;
+    }
+
+    .ref{
+        width:50vh;
+    }
 }
