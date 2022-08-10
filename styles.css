@@ -317,10 +317,11 @@ html{
 #meal_10{
     background-image: url(./menu/desserts/Ginsburg_Mena_26.7.22\ 165.jpg);
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     box-shadow: 4px 4px 4px rgb(39, 34, 34); 
     margin-left: 15px;
-    width: 83%;
+    width: 105%;
     height: 100%;
 }
 
@@ -328,9 +329,10 @@ html{
     background-image: url(./menu/desserts/Ginsburg_Mena_26.7.22\ 163.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 4px 4px 4px rgb(39, 34, 34); 
     margin-left: 8px;
-    width: 92%;
+    width: 115%;
     height: 100%;
 }
 
@@ -340,7 +342,7 @@ html{
     background-repeat: no-repeat;
     box-shadow: 4px 4px 4px rgb(39, 34, 34); 
     margin-left: 38px;
-    width: 63%;
+    width: 78.5%;
     height: 100%;
 }
 
