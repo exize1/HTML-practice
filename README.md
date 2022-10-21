@@ -19,4 +19,4 @@ Our first project with css and html within the course.
 
 ## What's next:
 
--[ ] Make it responsive 
+- [ ] Make it responsive 
