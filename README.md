@@ -2,7 +2,7 @@
 Our first project with css and html within the course. 
 
 ## Table of contents 
-- [Employeely](#employeely)
+- [Mena Restaurant](#mena-restaurant)
   - [Why was Mena Restaurant made](#why-mena-restaurant-made)
   - [Technologies](#technologies)
   - [Whats Next](#whats-next)
